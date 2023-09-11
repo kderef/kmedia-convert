@@ -10,7 +10,43 @@
 </head>
 
 <body>
-    <h1>Hello World!</h1>
+    <h1>Media Konvert</h1>
+
+    <!-- left side -->
+    <select name="source-type">
+        <option value="0">None</option>
+
+        <optgroup label="audio">
+            <option value="1">Mp3</option>
+            <option value="2">Wav</option>
+            <option value="3">Ogg</option>
+        </optgroup>
+
+        <optgroup label="Video">
+            <option value="4">Mp4</option>
+        </optgroup>
+    </select><br>
+    <button id="source-input" class="file-input">Select Source</button>
+
+    <!-- middle -->
+    <img src="/src/assets/arrow.svg" height="200">
+
+    <!-- right side -->
+    
+    <select name="dest-type" id="dest-type">
+        <option value="0">None</option>
+
+        <optgroup label="audio">
+            <option value="1">Mp3</option>
+            <option value="2">Wav</option>
+            <option value="3">Ogg</option>
+        </optgroup>
+
+        <optgroup label="Video">
+            <option value="4">Mp4</option>
+        </optgroup>
+    </select><br>
+    <button id="dest-btn" disabled>Save as</button>
 </body>
 
 </html>

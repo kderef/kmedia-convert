@@ -27,7 +27,7 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "com.tauri.dev",
+      "identifier": "com.Kian-Heitkamp.Media-Konvert",
       "targets": "all"
     },
     "security": {
@@ -39,10 +39,10 @@
     "windows": [
       {
         "fullscreen": false,
-        "resizable": true,
+        "resizable": false,
         "title": "Media-Konvert",
-        "width": 800,
-        "height": 600
+        "width": 500,
+        "height": 300
       }
     ]
   }
